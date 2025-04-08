@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Welcome to POO-Trigonometry’s documentation! &#8212; POO-Trigonometry v0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=12dfc556" />
+    <script src="_static/documentation_options.js?v=f8c80a57"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="welcome-to-poo-trigonometry-s-documentation">
+<h1>Welcome to POO-Trigonometry’s documentation!<a class="headerlink" href="#welcome-to-poo-trigonometry-s-documentation" title="Link to this heading">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+<section id="module-triangle">
+<span id="triangle-module"></span><h1>Triangle Module<a class="headerlink" href="#module-triangle" title="Link to this heading">¶</a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="triangle.Triangle">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">triangle.</span></span><span class="sig-name descname"><span class="pre">Triangle</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#triangle.Triangle" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Represents a triangle with properties for its base, right side, left side, and height.
+Provides functionality to calculate the perimeter and area of the triangle.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Variables<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>_base</strong> – The base of the triangle. Default value is 1.</p></li>
+<li><p><strong>_right_side</strong> – The right side of the triangle. Default value is 1.</p></li>
+<li><p><strong>_left_side</strong> – The left side of the triangle. Default value is 1.</p></li>
+<li><p><strong>_height</strong> – The height of the triangle. Default value is 1.</p></li>
+<li><p><strong>was_defaulted</strong> – True when the input values for a constructor are incorrect. Default is False.</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="triangle.Triangle.area">
+<span class="sig-name descname"><span class="pre">area</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#triangle.Triangle.area" title="Link to this definition">¶</a></dt>
+<dd><p>Calculates and returns the area of the triangle.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>The area of the triangle calculated using the base and height.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="triangle.Triangle.base">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">base</span></span><a class="headerlink" href="#triangle.Triangle.base" title="Link to this definition">¶</a></dt>
+<dd><p>The base of the triangle. Must be a positive number greater than zero.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="triangle.Triangle.get_triangle_type">
+<span class="sig-name descname"><span class="pre">get_triangle_type</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#triangle.Triangle.get_triangle_type" title="Link to this definition">¶</a></dt>
+<dd><p>Determines the type of the triangle based on its sides.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>A string indicating whether the triangle is Equilateral, Isosceles, or Scalene.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="triangle.Triangle.height">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">height</span></span><a class="headerlink" href="#triangle.Triangle.height" title="Link to this definition">¶</a></dt>
+<dd><p>The height of the triangle. Must be a positive number greater than zero.</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="triangle.Triangle.left_side">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">left_side</span></span><a class="headerlink" href="#triangle.Triangle.left_side" title="Link to this definition">¶</a></dt>
+<dd><p>The left side of the triangle. Must be a positive number greater than zero.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="triangle.Triangle.perimeter">
+<span class="sig-name descname"><span class="pre">perimeter</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#triangle.Triangle.perimeter" title="Link to this definition">¶</a></dt>
+<dd><p>Calculates and returns the perimeter of the triangle.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>The sum of all sides of the triangle.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="triangle.Triangle.right_side">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">right_side</span></span><a class="headerlink" href="#triangle.Triangle.right_side" title="Link to this definition">¶</a></dt>
+<dd><p>The right side of the triangle. Must be a positive number greater than zero.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Link to this heading">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">POO-Trigonometry</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Helder Rodrigo Pinto [HSP].
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.2.6</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
